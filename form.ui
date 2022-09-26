@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Bird_Detector</class>
+ <widget class="QWidget" name="Bird_Detector">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Bird or Not</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../Users/inda7/Dropbox/Masters/Thesis/Writing  - Thesis Chapters/Writing Files/Graphs and Pictures/Archaeopteryx.png</normaloff>../Users/inda7/Dropbox/Masters/Thesis/Writing  - Thesis Chapters/Writing Files/Graphs and Pictures/Archaeopteryx.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>360</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QProgressBar::chunk 
+                          {
+                          background-color: rgb(235, 235, 235);
+                          }
+
+QProgressBar {
+    					border: 0px solid grey;
+    					border-radius: 0px;
+						background-color: transparent;
+                          }
+</string>
+   </property>
+   <property name="value">
+    <number>0</number>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>370</width>
+     <height>270</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../Users/inda7/Dropbox/Masters/Thesis/Writing  - Thesis Chapters/Writing Files/Graphs and Pictures/Birds Communicate.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>360</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    border: 0.5px solid grey;
+    border-radius: 5px;
+	
+	background-color: rgb(240, 240, 240);
+}
+
+QPushButton::hover
+                             {
+                             background-color: rgb(245, 245, 245);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Load aduio</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
